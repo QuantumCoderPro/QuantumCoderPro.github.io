@@ -10,7 +10,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-servicesmily: "Open Sans", sans-serif;
   color: #272829;
 }
 
@@ -97,7 +97,7 @@ h6 {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: "Poppins", sans-serif;
+  font-servicesmily: "Poppins", sans-serif;
 }
 
 #header .profile h1 a,
@@ -696,11 +696,11 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+.projects .icon-box {
   margin-bottom: 20px;
 }
 
-.services .icon {
+.projects .icon {
   float: left;
   display: flex;
   align-items: center;
@@ -712,37 +712,36 @@ section {
   transition: 0.5s;
   border: 1px solid #149ddd;
 }
-
-.services .icon i {
+projects .icon i {
   color: #fff;
   font-size: 24px;
   line-height: 0;
 }
 
-.services .icon-box:hover .icon {
+.projects .icon-box:hover .icon {
   background: #fff;
 }
 
-.services .icon-box:hover .icon i {
+.projects .icon-box:hover .icon i {
   color: #149ddd;
 }
 
-.services .title {
+.projects .title {
   margin-left: 80px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.services .title a {
+.projects .title a {
   color: #343a40;
 }
 
-.services .title a:hover {
+.projects .title a:hover {
   color: #149ddd;
 }
 
-.services .description {
+.projects .description {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
